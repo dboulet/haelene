@@ -1,0 +1,185 @@
+{
+glyphname = dollar;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+pos = (3,14);
+ref = S;
+scale = (0.96,0.96);
+},
+{
+closed = 1;
+nodes = (
+(333,-107,l),
+(333,823,l),
+(298,823,l),
+(298,-107,l)
+);
+}
+);
+width = 615;
+},
+{
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+pos = (1,13);
+ref = S;
+scale = (0.96,0.96);
+},
+{
+closed = 1;
+nodes = (
+(388,-107,l),
+(386,823,l),
+(246,823,l),
+(245,-107,l)
+);
+}
+);
+width = 612;
+},
+{
+associatedMasterId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "84D56100-B407-44BC-8398-F7B86C08C4B5";
+name = "Dec 3, 23 at 00:41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,698,l),
+(334,823,l),
+(299,823,l),
+(299,698,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,-107,l),
+(334,14,l),
+(299,14,l),
+(299,-107,l)
+);
+},
+{
+pos = (3,14);
+ref = S;
+scale = (0.96,0.96);
+}
+);
+width = 615;
+},
+{
+associatedMasterId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "8D54F143-7F06-469F-BEB2-8CB27DD37629";
+name = "Dec 3, 23 at 00:43";
+shapes = (
+{
+closed = 1;
+nodes = (
+(393,624,l),
+(393,823,l),
+(238,823,l),
+(238,624,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,-107,l),
+(393,99,l),
+(238,99,l),
+(238,-107,l)
+);
+},
+{
+pos = (1,14);
+ref = S;
+scale = (0.96,0.96);
+}
+);
+width = 612;
+},
+{
+layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
+shapes = (
+{
+alignment = -1;
+pos = (2,13);
+ref = S;
+scale = (0.96,0.96);
+},
+{
+closed = 1;
+nodes = (
+(336,-107,l),
+(336,823,l),
+(281,823,l),
+(281,-107,l)
+);
+}
+);
+width = 613;
+},
+{
+associatedMasterId = "502A2428-35F6-4863-AD44-5AC44627310C";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "F39C7633-809F-4CE6-B1A1-7E83F6F44525";
+name = "Dec 9, 23 at 02:21";
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,675,l),
+(342,823,l),
+(274,823,l),
+(274,675,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(342,-107,l),
+(342,30,l),
+(274,30,l),
+(274,-107,l)
+);
+},
+{
+pos = (2,14);
+ref = S;
+scale = (0.96,0.96);
+}
+);
+width = 613;
+}
+);
+metricLeft = S;
+metricRight = "=|";
+unicode = 36;
+}

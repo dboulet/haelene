@@ -1,0 +1,151 @@
+{
+glyphname = interrobang;
+kernLeft = question;
+kernRight = question;
+layers = (
+{
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(250,188,l),
+(254,439,l),
+(254,632,l),
+(220,632,l),
+(220,439,l),
+(223,188,l)
+);
+}
+);
+width = 485;
+},
+{
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(264,253,l),
+(290,362,l),
+(290,493,l),
+(134,493,l),
+(134,366,l),
+(168,253,l)
+);
+}
+);
+width = 508;
+},
+{
+layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(265,207,l),
+(276,415,l),
+(276,602,l),
+(194,602,l),
+(194,415,l),
+(204,207,l)
+);
+}
+);
+width = 484;
+},
+{
+associatedMasterId = "502A2428-35F6-4863-AD44-5AC44627310C";
+attr = {
+axisRules = (
+{
+min = 800;
+}
+);
+};
+layerId = "DF00626C-F055-4A5F-8901-C4752325DCD7";
+name = "Dec 11, 23 at 22:36";
+shapes = (
+{
+alignment = -1;
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(286,670,l),
+(286,823,l),
+(208,823,l),
+(208,670,l)
+);
+}
+);
+width = 506;
+},
+{
+associatedMasterId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+attr = {
+axisRules = (
+{
+min = 800;
+}
+);
+};
+layerId = "A92823AC-E755-48FE-A30F-994D5B440FFF";
+name = "Dec 11, 23 at 22:37";
+shapes = (
+{
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(264,713,l),
+(264,823,l),
+(230,823,l),
+(230,713,l)
+);
+}
+);
+width = 506;
+},
+{
+associatedMasterId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+attr = {
+axisRules = (
+{
+min = 800;
+}
+);
+};
+layerId = "4BA58B80-C538-41C0-9135-E06A6041F187";
+name = "Dec 11, 23 at 22:37";
+shapes = (
+{
+ref = question;
+},
+{
+closed = 1;
+nodes = (
+(351,665,l),
+(351,823,l),
+(147,823,l),
+(147,669,l)
+);
+}
+);
+width = 508;
+}
+);
+unicode = 8253;
+}

@@ -1,0 +1,184 @@
+{
+glyphname = cent;
+kernLeft = cent;
+kernRight = cent;
+layers = (
+{
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+pos = (1,106);
+ref = c;
+scale = (0.9602,1);
+},
+{
+closed = 1;
+nodes = (
+(377,0,l),
+(377,716,l),
+(233,716,l),
+(233,0,l)
+);
+}
+);
+width = 508;
+},
+{
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+pos = (2,106);
+ref = c;
+scale = (0.962,1);
+},
+{
+closed = 1;
+nodes = (
+(313,0,l),
+(313,716,l),
+(278,716,l),
+(278,0,l)
+);
+}
+);
+width = 517;
+},
+{
+layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
+shapes = (
+{
+pos = (2,106);
+ref = c;
+scale = (0.962,1);
+},
+{
+closed = 1;
+nodes = (
+(321,0,l),
+(321,716,l),
+(267,716,l),
+(267,0,l)
+);
+}
+);
+width = 509;
+},
+{
+associatedMasterId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "8FDFC9E2-BDD3-4872-A955-D6FF0F999279";
+name = "Dec 21, 23 at 00:09";
+shapes = (
+{
+pos = (2,106);
+ref = c;
+scale = (0.962,1);
+},
+{
+closed = 1;
+nodes = (
+(313,605,l),
+(313,716,l),
+(278,716,l),
+(278,605,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(313,0,l),
+(313,116,l),
+(278,116,l),
+(278,0,l)
+);
+}
+);
+width = 517;
+},
+{
+associatedMasterId = "502A2428-35F6-4863-AD44-5AC44627310C";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "81CBEA56-E242-4FA8-B14C-B68C087AB9CE";
+name = "Dec 21, 23 at 00:09";
+shapes = (
+{
+pos = (2,106);
+ref = c;
+scale = (0.962,1);
+},
+{
+closed = 1;
+nodes = (
+(328,572,l),
+(328,716,l),
+(260,716,l),
+(260,572,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,0,l),
+(328,138,l),
+(260,138,l),
+(260,0,l)
+);
+}
+);
+width = 509;
+},
+{
+associatedMasterId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+attr = {
+axisRules = (
+{
+min = 700;
+}
+);
+};
+layerId = "A6F9C649-C2E3-42CC-859E-44F0658839F3";
+name = "Dec 21, 23 at 00:09";
+shapes = (
+{
+pos = (1,106);
+ref = c;
+scale = (0.9602,1);
+},
+{
+closed = 1;
+nodes = (
+(382,502,l),
+(382,716,l),
+(227,716,l),
+(227,502,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(382,0,l),
+(382,204,l),
+(227,204,l),
+(227,0,l)
+);
+}
+);
+width = 508;
+}
+);
+metricLeft = c;
+metricRight = c;
+unicode = 162;
+}
