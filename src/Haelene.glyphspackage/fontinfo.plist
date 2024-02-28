@@ -80,6 +80,8 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature subs;
+feature sinf;
 feature sups;
 feature numr;
 feature dnom;
@@ -90,6 +92,7 @@ feature pnum;
 feature tnum;
 feature onum;
 feature case;
+feature dtls;
 feature zero;
 feature cv01;
 feature cv02;
@@ -100,7 +103,6 @@ feature cv06;
 feature cv07;
 feature cv08;
 feature cv09;
-feature dtls;
 ";
 tag = aalt;
 },
@@ -160,44 +162,91 @@ tag = locl;
 },
 {
 automatic = 1;
-code = "sub one by onesuperior;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
 sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
 ";
 tag = sups;
 },
 {
 automatic = 1;
-code = "sub one by one.numr;
+code = "sub zero by zero.numr;
+sub one by one.numr;
 sub two by two.numr;
 sub three by three.numr;
+sub four by four.numr;
 sub five by five.numr;
+sub six by six.numr;
 sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
 ";
 tag = numr;
 },
 {
 automatic = 1;
-code = "sub two by two.dnom;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
 sub three by three.dnom;
 sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
 sub eight by eight.dnom;
+sub nine by nine.dnom;
 ";
 tag = dnom;
 },
 {
 automatic = 1;
-code = "sub one slash eight by oneeighth;
-sub one slash four by onequarter;
-sub three slash eight by threeeighths;
-sub one slash two by onehalf;
-sub five slash eight by fiveeighths;
-sub three slash four by threequarters;
-sub seven slash eight by seveneighths;
-sub one slash three by onethird;
-sub two slash three by twothirds;
-sub one slash by onefraction;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
 ";
 tag = frac;
 },
@@ -310,10 +359,21 @@ sub f t by f_t.liga;
 tag = liga;
 },
 {
+automatic = 1;
+code = "sub i by idotless;
+sub j by jdotless;
+";
+tag = dtls;
+},
+{
 code = "lookup Slashed_Zero {
 	sub zero by zero.zero;
 	sub zero.osf by zero.osf.zero;
 	sub zero.tf by zero.tf.zero;
+    sub zero.dnom by zero.dnom.zero;
+    sub zero.numr by zero.numr.zero;
+    sub zeroinferior by zeroinferior.zero;
+    sub zerosuperior by zerosuperior.zero;
 } Slashed_Zero;
 ";
 tag = zero;
@@ -455,13 +515,6 @@ value = Disambiguation;
 }
 );
 tag = ss04;
-},
-{
-automatic = 1;
-code = "sub i by idotless;
-sub j by jdotless;
-";
-tag = dtls;
 }
 );
 fontMaster = (
@@ -541,6 +594,10 @@ pos = (0,716);
 },
 {
 pos = (0,295);
+},
+{
+name = "Sup Height";
+pos = (0,860);
 }
 );
 iconName = Light;
@@ -663,6 +720,10 @@ pos = (0,544);
 },
 {
 pos = (0,295);
+},
+{
+name = "Sup Height";
+pos = (0,860);
 }
 );
 id = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -780,6 +841,10 @@ pos = (0,716);
 },
 {
 pos = (0,295);
+},
+{
+name = "Sup Height";
+pos = (0,860);
 }
 );
 iconName = Bold;
@@ -1552,8 +1617,11 @@ G.alt = {
 "@MMK_R_A" = -20;
 "@MMK_R_X" = -10;
 };
+eight.numr = {
+fraction = 15;
+};
 five.numr = {
-fraction = -10;
+fraction = 10;
 };
 five.osf = {
 "@MMK_R_c" = -25;
@@ -1568,13 +1636,21 @@ one.osf = -40;
 three.osf = -20;
 };
 fraction = {
-eight.dnom = -45;
-four.dnom = -65;
-three.dnom = -25;
-two.dnom = -10;
+eight.dnom = -10;
+four.dnom = -50;
+one.dnom = 10;
+seven.dnom = 40;
+six.dnom = -20;
+zero.dnom = -10;
+};
+nine.numr = {
+fraction = -10;
 };
 nine.osf = {
 three.osf = -10;
+};
+one.numr = {
+fraction = 61;
 };
 seven.numr = {
 fraction = -50;
@@ -1587,15 +1663,21 @@ three.osf = -10;
 two.osf = -10;
 };
 three.numr = {
-fraction = -10;
+fraction = 20;
 };
 three.osf = {
 seven.osf = -10;
+};
+two.numr = {
+fraction = 50;
 };
 two.osf = {
 "@MMK_R_c" = -20;
 seven.osf = -20;
 three.osf = -20;
+};
+zero.numr = {
+fraction = -10;
 };
 };
 "502A2428-35F6-4863-AD44-5AC44627310C" = {
@@ -2233,12 +2315,15 @@ G.alt = {
 "@MMK_R_A" = -20;
 "@MMK_R_X" = -20;
 };
+eight.numr = {
+fraction = -10;
+};
 f = {
 "@MMK_R_f" = 0;
 "@MMK_R_t" = 0;
 };
 five.numr = {
-fraction = -25;
+fraction = -10;
 };
 five.osf = {
 "@MMK_R_c" = -20;
@@ -2253,10 +2338,19 @@ one.osf = -50;
 three.osf = -20;
 };
 fraction = {
-eight.dnom = -50;
+eight.dnom = -20;
+five.dnom = -10;
 four.dnom = -80;
-three.dnom = -30;
-two.dnom = -20;
+nine.dnom = -10;
+one.dnom = 20;
+seven.dnom = 50;
+six.dnom = -20;
+three.dnom = -10;
+two.dnom = -10;
+zero.dnom = -10;
+};
+nine.numr = {
+fraction = -20;
 };
 nine.osf = {
 "@MMK_R_eight" = -10;
@@ -2264,10 +2358,10 @@ one.osf = -10;
 three.osf = -10;
 };
 one.numr = {
-fraction = -15;
+fraction = 21;
 };
 seven.numr = {
-fraction = -70;
+fraction = -65;
 };
 seven.osf = {
 "@MMK_R_c" = -30;
@@ -2276,11 +2370,11 @@ four.osf = -50;
 three.osf = -10;
 two.osf = -10;
 };
-three.numr = {
-fraction = -25;
-};
 three.osf = {
 "@MMK_R_c" = -10;
+};
+two.numr = {
+fraction = 25;
 };
 two.osf = {
 "@MMK_R_c" = -15;
@@ -2290,6 +2384,9 @@ five.osf = -20;
 one.osf = -10;
 seven.osf = -20;
 three.osf = -15;
+};
+zero.numr = {
+fraction = -10;
 };
 };
 "42F8977D-8264-44FF-8A66-A72BD7D3E619" = {
@@ -2887,8 +2984,11 @@ Lcaron = {
 "@MMK_R_T" = 0;
 "@MMK_R_V" = 0;
 };
+eight.numr = {
+fraction = -10;
+};
 five.numr = {
-fraction = -60;
+fraction = -30;
 };
 five.osf = {
 "@MMK_R_c" = -10;
@@ -2903,29 +3003,41 @@ five.osf = -10;
 one.osf = -35;
 };
 fraction = {
-eight.dnom = -80;
-four.dnom = -115;
-three.dnom = -60;
-two.dnom = -60;
+eight.dnom = -40;
+five.dnom = -20;
+four.dnom = -80;
+nine.dnom = -20;
+one.dnom = 20;
+seven.dnom = 30;
+six.dnom = -30;
+three.dnom = -20;
+two.dnom = -10;
+zero.dnom = -30;
 };
 idieresis = {
 "@MMK_R_j" = 35;
+};
+nine.numr = {
+fraction = -40;
 };
 nine.osf = {
 three.osf = -10;
 };
 one.numr = {
-fraction = -55;
+fraction = -10;
 };
 seven.numr = {
-fraction = -90;
+fraction = -70;
 };
 seven.osf = {
 four.osf = -30;
 one.osf = 20;
 };
+six.numr = {
+fraction = -10;
+};
 three.numr = {
-fraction = -60;
+fraction = -30;
 };
 three.osf = {
 "@MMK_R_eight" = -10;
@@ -2933,6 +3045,9 @@ three.osf = {
 two.osf = {
 five.osf = -10;
 three.osf = -25;
+};
+zero.numr = {
+fraction = -30;
 };
 };
 };

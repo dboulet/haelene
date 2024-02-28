@@ -1,35 +1,38 @@
 {
-glyphname = seven.numr;
+glyphname = eightsuperior;
 layers = (
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
 shapes = (
 {
-pos = (0,293);
-ref = seven.dnom;
+pos = (0,437);
+ref = eight.dnom;
 }
 );
-width = 346;
+width = 405;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
 shapes = (
 {
-pos = (0,293);
-ref = seven.dnom;
+pos = (0,437);
+ref = eight.dnom;
 }
 );
-width = 349;
+width = 404;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
 shapes = (
 {
-pos = (0,293);
-ref = seven.dnom;
+pos = (0,437);
+ref = eight.dnom;
 }
 );
-width = 339;
+width = 411;
 }
 );
+metricLeft = eight.dnom;
+metricRight = eight.dnom;
+unicode = 8312;
 }
