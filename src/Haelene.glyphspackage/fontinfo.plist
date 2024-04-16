@@ -1,5 +1,5 @@
 {
-.appVersion = "3240";
+.appVersion = "3258";
 .formatVersion = 3;
 axes = (
 {
@@ -92,7 +92,6 @@ feature pnum;
 feature tnum;
 feature onum;
 feature case;
-feature dtls;
 feature zero;
 feature cv01;
 feature cv02;
@@ -357,13 +356,6 @@ sub f f by f_f.liga;
 sub f t by f_t.liga;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub i by idotless;
-sub j by jdotless;
-";
-tag = dtls;
 },
 {
 code = "lookup Slashed_Zero {
