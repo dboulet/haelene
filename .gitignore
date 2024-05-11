@@ -3,4 +3,4 @@
 
 # Glyphs app #
 **/*.glyphspackage/UIState.plist
-**/*(Autosaved).glyphs
+**/*(Autosaved).glyphs*
