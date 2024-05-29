@@ -1,0 +1,46 @@
+{
+glyphname = jacute;
+kernLeft = j;
+kernRight = j;
+layers = (
+{
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-155,0);
+ref = acutecomb;
+}
+);
+width = 186;
+},
+{
+layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-146,0);
+ref = acutecomb;
+}
+);
+width = 206;
+},
+{
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-143,0);
+ref = acutecomb;
+}
+);
+width = 244;
+}
+);
+}

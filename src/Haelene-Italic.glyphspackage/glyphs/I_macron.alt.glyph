@@ -1,0 +1,46 @@
+{
+glyphname = Imacron.alt;
+kernLeft = I.alt;
+kernRight = I.alt;
+layers = (
+{
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+ref = I.alt;
+},
+{
+pos = (-92,212);
+ref = macroncomb;
+}
+);
+width = 363;
+},
+{
+layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
+shapes = (
+{
+ref = I.alt;
+},
+{
+pos = (-77,212);
+ref = macroncomb;
+}
+);
+width = 392;
+},
+{
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+ref = I.alt;
+},
+{
+pos = (-42,212);
+ref = macroncomb;
+}
+);
+width = 484;
+}
+);
+}
