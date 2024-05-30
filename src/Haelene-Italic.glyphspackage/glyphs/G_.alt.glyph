@@ -1,7 +1,7 @@
 {
 glyphname = G.alt;
 kernLeft = C;
-kernRight = G;
+kernRight = G.alt;
 layers = (
 {
 anchors = (

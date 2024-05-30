@@ -1,7 +1,7 @@
 {
 glyphname = Gbreve.alt;
 kernLeft = C;
-kernRight = G;
+kernRight = G.alt;
 layers = (
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
