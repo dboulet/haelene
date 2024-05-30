@@ -9,7 +9,7 @@ pos = (0,-195);
 ref = nine.dnom;
 }
 );
-width = 400;
+width = 420;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -19,7 +19,7 @@ pos = (0,-195);
 ref = nine.dnom;
 }
 );
-width = 399;
+width = 419;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -29,7 +29,7 @@ pos = (0,-195);
 ref = nine.dnom;
 }
 );
-width = 442;
+width = 472;
 }
 );
 metricLeft = nine.dnom;

@@ -57,15 +57,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (319,0);
+pos = (349,0);
 ref = fraction;
 },
 {
-pos = (491,0);
+pos = (581,0);
 ref = four.dnom;
 }
 );
-width = 892;
+width = 1012;
 },
 {
 background = {
@@ -123,15 +123,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (250,0);
+pos = (270,0);
 ref = fraction;
 },
 {
-pos = (370,0);
+pos = (440,0);
 ref = four.dnom;
 }
 );
-width = 765;
+width = 855;
 },
 {
 background = {
@@ -184,15 +184,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (287,0);
+pos = (307,0);
 ref = fraction;
 },
 {
-pos = (422,0);
+pos = (482,0);
 ref = four.dnom;
 }
 );
-width = 827;
+width = 907;
 }
 );
 unicode = 188;

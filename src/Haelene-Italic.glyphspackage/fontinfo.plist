@@ -1619,10 +1619,11 @@ four.osf = {
 one.osf = -20;
 };
 fraction = {
-four.dnom = -80;
+four.dnom = -60;
 one.dnom = 20;
 seven.dnom = 40;
 six.dnom = -10;
+three.dnom = -10;
 zero.dnom = -10;
 };
 nine.numr = {
@@ -2316,19 +2317,18 @@ four.osf = {
 one.osf = -35;
 };
 fraction = {
-eight.dnom = -20;
-five.dnom = -10;
-four.dnom = -80;
+eight.dnom = -10;
+four.dnom = -60;
 nine.dnom = -10;
 one.dnom = 20;
 seven.dnom = 50;
-six.dnom = -20;
+six.dnom = -10;
 three.dnom = -10;
 two.dnom = -10;
 zero.dnom = -10;
 };
 nine.numr = {
-fraction = -30;
+fraction = -20;
 };
 nine.osf = {
 "@MMK_R_eight" = -10;
@@ -2336,7 +2336,7 @@ one.osf = -10;
 three.osf = -10;
 };
 seven.numr = {
-fraction = -85;
+fraction = -70;
 };
 seven.osf = {
 "@MMK_R_c" = -10;
@@ -2948,7 +2948,7 @@ eight.numr = {
 fraction = -20;
 };
 five.numr = {
-fraction = -30;
+fraction = -20;
 };
 five.osf = {
 "@MMK_R_c" = -10;
@@ -2960,13 +2960,13 @@ four.osf = {
 one.osf = -35;
 };
 fraction = {
-eight.dnom = -30;
+eight.dnom = -20;
 five.dnom = -10;
-four.dnom = -70;
+four.dnom = -60;
 nine.dnom = -20;
 one.dnom = 20;
-seven.dnom = 20;
-six.dnom = -30;
+seven.dnom = 10;
+six.dnom = -20;
 three.dnom = -10;
 zero.dnom = -20;
 };
@@ -2974,7 +2974,7 @@ idieresis = {
 "@MMK_R_j" = 35;
 };
 nine.numr = {
-fraction = -30;
+fraction = -20;
 };
 nine.osf = {
 three.osf = -10;
@@ -2990,16 +2990,13 @@ six.numr = {
 fraction = -20;
 };
 three.numr = {
-fraction = -30;
-};
-two.numr = {
-fraction = 10;
+fraction = -10;
 };
 two.osf = {
 three.osf = -10;
 };
 zero.numr = {
-fraction = -30;
+fraction = -20;
 };
 };
 };
