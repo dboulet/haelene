@@ -60,11 +60,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (114,212);
+pos = (119,212);
 ref = circumflexcomb;
 }
 );
-width = 802;
+width = 807;
 },
 {
 background = {

@@ -10,11 +10,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (-5,0);
+pos = (-10,0);
 ref = dotaccentcomb;
 }
 );
-width = 545;
+width = 540;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";

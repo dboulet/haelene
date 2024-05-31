@@ -75,7 +75,7 @@ nodes = (
 );
 }
 );
-width = 303;
+width = 308;
 },
 {
 background = {
@@ -149,7 +149,7 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 205;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -187,7 +187,7 @@ nodes = (
 );
 }
 );
-width = 254;
+width = 239;
 }
 );
 metricLeft = comma;

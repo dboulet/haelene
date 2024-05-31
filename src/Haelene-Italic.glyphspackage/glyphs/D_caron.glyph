@@ -10,11 +10,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (67,212);
+pos = (57,212);
 ref = caroncomb;
 }
 );
-width = 750;
+width = 740;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -36,11 +36,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (65,212);
+pos = (60,212);
 ref = caroncomb;
 }
 );
-width = 726;
+width = 721;
 }
 );
 metricLeft = D;

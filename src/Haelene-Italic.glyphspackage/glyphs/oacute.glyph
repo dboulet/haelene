@@ -61,7 +61,7 @@ pos = (21,0);
 ref = acutecomb;
 }
 );
-width = 599;
+width = 584;
 },
 {
 background = {
@@ -117,11 +117,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (42,0);
+pos = (37,0);
 ref = acutecomb;
 }
 );
-width = 609;
+width = 604;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -134,7 +134,7 @@ pos = (22,0);
 ref = acutecomb;
 }
 );
-width = 580;
+width = 575;
 }
 );
 unicode = 243;

@@ -36,11 +36,11 @@ shapes = (
 ref = G;
 },
 {
-pos = (96,212);
+pos = (101,212);
 ref = macroncomb;
 }
 );
-width = 757;
+width = 762;
 }
 );
 unicode = 7712;

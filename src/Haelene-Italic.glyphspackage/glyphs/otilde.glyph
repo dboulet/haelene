@@ -77,7 +77,7 @@ pos = (-27,0);
 ref = tildecomb;
 }
 );
-width = 599;
+width = 584;
 },
 {
 background = {
@@ -149,11 +149,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-6,0);
+pos = (-11,0);
 ref = tildecomb;
 }
 );
-width = 609;
+width = 604;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -166,7 +166,7 @@ pos = (-26,0);
 ref = tildecomb;
 }
 );
-width = 580;
+width = 575;
 }
 );
 unicode = 245;

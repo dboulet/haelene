@@ -57,11 +57,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (75,212);
+pos = (80,212);
 ref = gravecomb;
 }
 );
-width = 802;
+width = 807;
 },
 {
 background = {

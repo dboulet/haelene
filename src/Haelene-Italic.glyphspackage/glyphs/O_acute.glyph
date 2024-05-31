@@ -57,11 +57,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (162,212);
+pos = (167,212);
 ref = acutecomb;
 }
 );
-width = 802;
+width = 807;
 },
 {
 background = {

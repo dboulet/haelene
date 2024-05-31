@@ -10,11 +10,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (106,212);
+pos = (96,212);
 ref = circumflexcomb;
 }
 );
-width = 760;
+width = 750;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -23,11 +23,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (85,212);
+pos = (80,212);
 ref = circumflexcomb;
 }
 );
-width = 716;
+width = 711;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -40,7 +40,7 @@ pos = (93,212);
 ref = circumflexcomb;
 }
 );
-width = 754;
+width = 749;
 }
 );
 unicode = 292;

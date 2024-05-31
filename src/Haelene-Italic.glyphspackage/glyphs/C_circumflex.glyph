@@ -36,11 +36,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (106,212);
+pos = (111,212);
 ref = circumflexcomb;
 }
 );
-width = 671;
+width = 676;
 }
 );
 unicode = 264;
