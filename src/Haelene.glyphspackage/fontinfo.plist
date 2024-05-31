@@ -2831,7 +2831,6 @@ seven.osf = 10;
 };
 "@MMK_L_parenleft" = {
 "@MMK_R_C" = -10;
-"@MMK_R_a" = -120;
 "@MMK_R_braceleft" = -50;
 "@MMK_R_c" = -10;
 "@MMK_R_four" = -20;
