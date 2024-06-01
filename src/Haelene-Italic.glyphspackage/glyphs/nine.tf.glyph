@@ -6,7 +6,7 @@ layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
 shapes = (
 {
 alignment = -1;
-pos = (2,0);
+pos = (-7,0);
 ref = nine;
 }
 );
@@ -21,20 +21,19 @@ pos = (-3,0);
 ref = nine;
 }
 );
-width = 632;
+width = 652;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
 shapes = (
 {
 alignment = -1;
-pos = (-1,0);
+pos = (-11,0);
 ref = nine;
 }
 );
 width = 652;
 }
 );
-metricRight = "=|";
 metricWidth = zero.tf;
 }

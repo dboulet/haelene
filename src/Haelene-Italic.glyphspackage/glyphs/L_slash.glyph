@@ -85,7 +85,7 @@ pos = (7,0);
 ref = L;
 }
 );
-width = 552;
+width = 542;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -104,7 +104,7 @@ pos = (-10,0);
 ref = L;
 }
 );
-width = 530;
+width = 525;
 }
 );
 metricLeft = Eth;
