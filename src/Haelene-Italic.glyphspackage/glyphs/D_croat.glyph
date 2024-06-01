@@ -10,7 +10,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 757;
+width = 747;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -28,7 +28,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 724;
+width = 719;
 }
 );
 metricRight = D;
