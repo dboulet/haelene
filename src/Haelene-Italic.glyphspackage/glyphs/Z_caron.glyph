@@ -45,7 +45,7 @@ pos = (52,212);
 ref = caroncomb;
 }
 );
-width = 678;
+width = 673;
 },
 {
 background = {
@@ -85,11 +85,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (24,212);
+pos = (19,212);
 ref = caroncomb;
 }
 );
-width = 596;
+width = 591;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -98,7 +98,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (40,212);
+pos = (35,212);
 ref = caroncomb;
 }
 );

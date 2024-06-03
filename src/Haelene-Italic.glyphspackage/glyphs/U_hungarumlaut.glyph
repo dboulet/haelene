@@ -10,11 +10,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (124,212);
+pos = (119,212);
 ref = hungarumlautcomb;
 }
 );
-width = 735;
+width = 730;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -36,11 +36,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (109,212);
+pos = (104,212);
 ref = hungarumlautcomb;
 }
 );
-width = 706;
+width = 701;
 }
 );
 unicode = 368;

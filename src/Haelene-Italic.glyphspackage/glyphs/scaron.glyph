@@ -71,11 +71,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (-66,0);
+pos = (-76,0);
 ref = caroncomb;
 }
 );
-width = 509;
+width = 504;
 },
 {
 background = {
@@ -158,11 +158,11 @@ shapes = (
 ref = s;
 },
 {
-pos = (-65,0);
+pos = (-70,0);
 ref = caroncomb;
 }
 );
-width = 487;
+width = 482;
 }
 );
 unicode = 353;

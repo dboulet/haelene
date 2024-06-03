@@ -31,7 +31,7 @@ pos = (263,536);
 ref = comma;
 }
 );
-width = 293;
+width = 303;
 },
 {
 background = {
@@ -61,7 +61,7 @@ pos = (142,561);
 ref = comma;
 }
 );
-width = 147;
+width = 152;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -72,7 +72,7 @@ pos = (179,554);
 ref = comma;
 }
 );
-width = 209;
+width = 214;
 }
 );
 metricLeft = quotedblleft;

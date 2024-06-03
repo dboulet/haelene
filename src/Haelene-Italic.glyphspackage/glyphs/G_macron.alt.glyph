@@ -10,7 +10,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (117,211);
+pos = (112,211);
 ref = macroncomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (117,211);
+pos = (112,211);
 ref = macroncomb;
 }
 );
-width = 752;
+width = 747;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -36,7 +36,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (104,211);
+pos = (99,211);
 ref = macroncomb;
 }
 );

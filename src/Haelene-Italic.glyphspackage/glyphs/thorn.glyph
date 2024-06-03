@@ -1,6 +1,6 @@
 {
 glyphname = thorn;
-kernLeft = h;
+kernLeft = p;
 kernRight = b;
 layers = (
 {
@@ -99,7 +99,7 @@ nodes = (
 );
 }
 );
-width = 624;
+width = 629;
 },
 {
 anchors = (

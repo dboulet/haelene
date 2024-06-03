@@ -35,11 +35,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (-29,0);
+pos = (-34,0);
 ref = ogonekcomb;
 }
 );
-width = 555;
+width = 550;
 },
 {
 anchors = (
@@ -58,7 +58,7 @@ pos = (-6,0);
 ref = ogonekcomb;
 }
 );
-width = 543;
+width = 538;
 }
 );
 unicode = 281;

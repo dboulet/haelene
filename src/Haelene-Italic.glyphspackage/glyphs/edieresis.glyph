@@ -91,11 +91,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (-30,0);
+pos = (-35,0);
 ref = dieresiscomb;
 }
 );
-width = 555;
+width = 550;
 },
 {
 background = {
@@ -202,7 +202,7 @@ pos = (-25,0);
 ref = dieresiscomb;
 }
 );
-width = 543;
+width = 538;
 }
 );
 unicode = 235;

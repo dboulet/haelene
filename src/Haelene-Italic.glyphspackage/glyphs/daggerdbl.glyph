@@ -150,7 +150,7 @@ nodes = (
 );
 }
 );
-width = 534;
+width = 539;
 }
 );
 metricRight = dagger;

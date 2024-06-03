@@ -49,7 +49,7 @@ pos = (84,212);
 ref = acutecomb;
 }
 );
-width = 644;
+width = 649;
 },
 {
 background = {
@@ -93,11 +93,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (97,212);
+pos = (102,212);
 ref = acutecomb;
 }
 );
-width = 609;
+width = 619;
 },
 {
 guides = (
@@ -111,11 +111,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (66,212);
+pos = (71,212);
 ref = acutecomb;
 }
 );
-width = 600;
+width = 610;
 }
 );
 unicode = 201;

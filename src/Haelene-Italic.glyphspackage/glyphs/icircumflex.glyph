@@ -35,7 +35,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-162,0);
+pos = (-167,0);
 ref = circumflexcomb;
 }
 );
@@ -77,7 +77,7 @@ pos = (-203,0);
 ref = circumflexcomb;
 }
 );
-width = 206;
+width = 211;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";

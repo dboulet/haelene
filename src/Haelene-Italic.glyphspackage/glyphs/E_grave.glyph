@@ -44,7 +44,7 @@ pos = (-3,212);
 ref = gravecomb;
 }
 );
-width = 644;
+width = 649;
 },
 {
 background = {
@@ -83,11 +83,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (12,212);
+pos = (17,212);
 ref = gravecomb;
 }
 );
-width = 609;
+width = 619;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -96,11 +96,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (-19,212);
+pos = (-14,212);
 ref = gravecomb;
 }
 );
-width = 600;
+width = 610;
 }
 );
 unicode = 200;

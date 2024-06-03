@@ -10,7 +10,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (308,0);
+pos = (303,0);
 ref = commaaccentcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (252,0);
+pos = (247,0);
 ref = commaaccentcomb;
 }
 );
@@ -36,11 +36,11 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (270,0);
+pos = (265,0);
 ref = commaaccentcomb;
 }
 );
-width = 752;
+width = 747;
 }
 );
 }

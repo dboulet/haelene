@@ -51,7 +51,7 @@ pos = (510,536);
 ref = comma;
 }
 );
-width = 540;
+width = 550;
 },
 {
 background = {
@@ -101,7 +101,7 @@ pos = (289,561);
 ref = comma;
 }
 );
-width = 294;
+width = 299;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -117,7 +117,7 @@ pos = (354,554);
 ref = comma;
 }
 );
-width = 384;
+width = 389;
 }
 );
 unicode = 8220;

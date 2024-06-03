@@ -69,11 +69,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (84,212);
+pos = (89,212);
 ref = dieresiscomb;
 }
 );
-width = 712;
+width = 722;
 },
 {
 background = {
@@ -141,11 +141,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (74,212);
+pos = (69,212);
 ref = dieresiscomb;
 }
 );
-width = 682;
+width = 677;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -154,11 +154,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (89,212);
+pos = (84,212);
 ref = dieresiscomb;
 }
 );
-width = 693;
+width = 688;
 }
 );
 unicode = 196;

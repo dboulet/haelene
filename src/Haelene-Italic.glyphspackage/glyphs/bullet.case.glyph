@@ -10,7 +10,7 @@ pos = (10,51);
 ref = bullet;
 }
 );
-width = 378;
+width = 373;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";

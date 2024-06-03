@@ -95,7 +95,7 @@ ref = comma;
 ref = comma;
 }
 );
-width = 360;
+width = 355;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -108,7 +108,7 @@ ref = comma;
 ref = comma;
 }
 );
-width = 405;
+width = 400;
 }
 );
 metricLeft = comma;

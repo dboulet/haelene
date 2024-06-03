@@ -28,7 +28,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 719;
+width = 714;
 }
 );
 metricRight = D;

@@ -57,7 +57,7 @@ shapes = (
 ref = comma;
 }
 );
-width = 212;
+width = 207;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -66,7 +66,7 @@ shapes = (
 ref = comma;
 }
 );
-width = 229;
+width = 224;
 }
 );
 metricLeft = comma;

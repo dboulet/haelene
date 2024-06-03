@@ -10,7 +10,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (117,211);
+pos = (112,211);
 ref = dotaccentcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (104,211);
+pos = (99,211);
 ref = dotaccentcomb;
 }
 );
@@ -36,11 +36,11 @@ shapes = (
 ref = G.alt;
 },
 {
-pos = (117,211);
+pos = (112,211);
 ref = dotaccentcomb;
 }
 );
-width = 752;
+width = 747;
 }
 );
 }

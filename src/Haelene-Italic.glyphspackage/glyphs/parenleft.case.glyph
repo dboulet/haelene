@@ -11,7 +11,7 @@ pos = (0,82);
 ref = parenleft;
 }
 );
-width = 337;
+width = 332;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -21,7 +21,7 @@ pos = (0,60);
 ref = parenleft;
 }
 );
-width = 394;
+width = 389;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";

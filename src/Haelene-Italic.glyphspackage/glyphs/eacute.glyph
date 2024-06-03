@@ -66,11 +66,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (18,0);
+pos = (13,0);
 ref = acutecomb;
 }
 );
-width = 555;
+width = 550;
 },
 {
 background = {
@@ -152,7 +152,7 @@ pos = (23,0);
 ref = acutecomb;
 }
 );
-width = 543;
+width = 538;
 }
 );
 unicode = 233;

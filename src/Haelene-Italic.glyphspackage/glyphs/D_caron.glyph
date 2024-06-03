@@ -10,7 +10,7 @@ shapes = (
 ref = D;
 },
 {
-pos = (57,212);
+pos = (62,212);
 ref = caroncomb;
 }
 );
@@ -36,11 +36,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (60,212);
+pos = (65,212);
 ref = caroncomb;
 }
 );
-width = 721;
+width = 716;
 }
 );
 metricLeft = D;

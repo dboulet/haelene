@@ -38,7 +38,7 @@ alignment = -1;
 ref = f_liga;
 }
 );
-width = 680;
+width = 690;
 },
 {
 anchors = (

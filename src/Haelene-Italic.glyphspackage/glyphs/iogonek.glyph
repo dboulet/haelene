@@ -18,7 +18,7 @@ pos = (-252,0);
 ref = ogonekcomb;
 }
 );
-width = 206;
+width = 211;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -27,11 +27,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-162,0);
+pos = (-167,0);
 ref = dotaccentcomb;
 },
 {
-pos = (-183,0);
+pos = (-188,0);
 ref = ogonekcomb;
 }
 );

@@ -96,7 +96,7 @@ nodes = (
 ref = O;
 }
 );
-width = 807;
+width = 802;
 },
 {
 anchors = (
@@ -191,7 +191,7 @@ nodes = (
 ref = O;
 }
 );
-width = 815;
+width = 805;
 },
 {
 anchors = (
@@ -235,7 +235,7 @@ nodes = (
 ref = O;
 }
 );
-width = 810;
+width = 795;
 }
 );
 metricLeft = C;

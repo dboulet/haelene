@@ -11,7 +11,7 @@ pos = (10,105);
 ref = colon;
 }
 );
-width = 199;
+width = 204;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -21,7 +21,7 @@ pos = (10,106);
 ref = colon;
 }
 );
-width = 251;
+width = 246;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -31,7 +31,7 @@ pos = (10,106);
 ref = colon;
 }
 );
-width = 302;
+width = 307;
 }
 );
 metricLeft = "=colon+10";

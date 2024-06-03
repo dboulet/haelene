@@ -69,7 +69,7 @@ pos = (36,212);
 ref = dieresiscomb;
 }
 );
-width = 644;
+width = 649;
 },
 {
 background = {
@@ -133,11 +133,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (49,212);
+pos = (54,212);
 ref = dieresiscomb;
 }
 );
-width = 609;
+width = 619;
 },
 {
 layerId = "502A2428-35F6-4863-AD44-5AC44627310C";
@@ -146,11 +146,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (18,212);
+pos = (23,212);
 ref = dieresiscomb;
 }
 );
-width = 600;
+width = 610;
 }
 );
 unicode = 203;

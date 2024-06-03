@@ -73,7 +73,7 @@ nodes = (
 ref = zero;
 }
 );
-width = 683;
+width = 688;
 },
 {
 associatedMasterId = "1750929F-40DF-47FF-8B11-7621AD6711F1";

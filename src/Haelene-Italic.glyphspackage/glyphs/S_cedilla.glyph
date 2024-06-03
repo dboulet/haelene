@@ -14,7 +14,7 @@ pos = (15,0);
 ref = cedillacomb;
 }
 );
-width = 619;
+width = 629;
 },
 {
 layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
@@ -23,7 +23,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (2,0);
+pos = (7,0);
 ref = cedillacomb;
 }
 );
@@ -40,7 +40,7 @@ pos = (37,0);
 ref = cedillacomb;
 }
 );
-width = 633;
+width = 638;
 }
 );
 unicode = 350;

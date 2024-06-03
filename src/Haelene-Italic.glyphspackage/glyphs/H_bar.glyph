@@ -37,7 +37,7 @@ nodes = (
 ref = H;
 }
 );
-width = 772;
+width = 754;
 },
 {
 anchors = (
@@ -63,17 +63,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(804,515,l),
-(831,668,l),
-(32,668,l),
-(5,515,l)
+(803,513,l),
+(830,666,l),
+(31,666,l),
+(4,513,l)
 );
 },
 {
 ref = H;
 }
 );
-width = 765;
+width = 755;
 },
 {
 anchors = (
@@ -109,7 +109,7 @@ nodes = (
 ref = H;
 }
 );
-width = 753;
+width = 721;
 }
 );
 metricLeft = H;

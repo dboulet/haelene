@@ -12,7 +12,7 @@ pos = (10,50);
 ref = guillemetleft;
 }
 );
-width = 598;
+width = 593;
 },
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
@@ -34,7 +34,7 @@ pos = (10,50);
 ref = guillemetleft;
 }
 );
-width = 501;
+width = 506;
 }
 );
 metricLeft = "=guillemetleft+10";
