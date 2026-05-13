@@ -1347,6 +1347,8 @@ two.osf = -25;
 "@MMK_R_v" = -80;
 "@MMK_R_w" = -70;
 "@MMK_R_zero" = -50;
+five.osf = -10;
+three.osf = -30;
 };
 "@MMK_L_e" = {
 "@MMK_R_V" = -60;
@@ -2046,6 +2048,8 @@ two.osf = -15;
 "@MMK_R_v" = -80;
 "@MMK_R_w" = -70;
 "@MMK_R_zero" = -50;
+five.osf = -20;
+three.osf = -30;
 };
 "@MMK_L_e" = {
 "@MMK_R_V" = -60;
@@ -2739,6 +2743,8 @@ three.osf = -35;
 "@MMK_R_v" = -70;
 "@MMK_R_w" = -70;
 "@MMK_R_zero" = -40;
+five.osf = -10;
+three.osf = -30;
 };
 "@MMK_L_e" = {
 "@MMK_R_V" = -55;

@@ -1,5 +1,6 @@
 {
 glyphname = one.osf;
+kernLeft = t;
 kernRight = u;
 layers = (
 {
